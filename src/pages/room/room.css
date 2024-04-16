@@ -1,0 +1,35 @@
+.room-container {
+  position: relative;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #9B84EE;
+  color: white;
+  display: inline-block;
+}
+
+.room-label {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  width: 50%; /* Задаем ширину блока */
+  height: auto; /* Устанавливаем высоту автоматически */
+  background-color: #9a93b4; /* Цвет фона */
+  border-radius: 20px; /* Радиус закругления углов */
+  margin: 20px; /* Отступы между блоками */
+  position: relative; /* Позиционирование элемента */
+}
+
+.block::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%; /* Зависимость высоты от ширины (56.25% = 16:9 соотношение) */
+}

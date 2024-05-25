@@ -1,56 +1,24 @@
-.form-container {
-  text-align: center;
+.app {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.auth {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 
-.form-input {
-  margin-bottom: 20px;
+.auth-app {
+  position: fixed;
+  top: 3px; /* Отступ сверху */
+  left: 3px; /* Отступ слева */
+  width: calc(100% - 6px); /* Вычитаем двойной отступ из ширины экрана */
+  height: calc(100% - 6px); /* Вычитаем двойной отступ из высоты экрана */
+  background-color: #313338;
+  border-radius: 7px;
+  margin: 0; /* Убираем внешний отступ */
+  padding: 0; /* Убираем внутренний отступ */
 }
 
-.form-input label {
-  display: block;
-  margin-bottom: 5px;
-  color: #9B84EE;
-}
-
-.form-input input {
-  width: 250px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
-  transition: border-color 0.3s ease;
-  color: rgb(78, 78, 78);
-}
-
-.form-input input:focus {
-  outline: none;
-  border-color: #7289DA;
-}
-
-.form-button {
-  padding: 10px 20px;
-  background-color: #9B84EE;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* добавлено свойство box-shadow */
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* эффект выпячивания */
-}
-
-.form-button:hover {
-  background-color: #b4a3f1;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* увеличиваем эффект выпячивания при наведении */
-}
-
-.check-form{
-  padding: 0;
-  margin-top: 5px;
-  box-sizing: border-box;
-  color: rgb(151, 0, 0);
-}

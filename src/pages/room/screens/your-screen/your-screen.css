@@ -1,0 +1,32 @@
+.your-screen {
+    position: relative;
+    width: 50%;
+    height: auto;
+    background-color: #1e1f22;
+    border-radius: 12px;
+    margin: 5px 3px 3px 3px;
+  }
+  
+  .your-screen::before {
+    content: "";
+    display: block;
+    padding-top: 56.25%;
+  }
+
+  .your-nickname {
+    margin: 2%;
+    font-size: 20%;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.5;
+    color: #b7babd;
+    background-color: #28292d;
+    border-radius: 5px;
+    padding: 0.9vh;
+    border: none;
+    outline: none;
+  }
+  
+  .local__video{
+    
+  }

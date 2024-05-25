@@ -1,0 +1,69 @@
+
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .room-id{
+    margin-bottom: 20px;
+  }
+  
+  .nickname{
+    margin-bottom: 0px;
+  }
+  
+  .form-input label {
+    display: block;
+    margin-bottom: 1%;
+    color: #9B84EE;
+    font-size: 20%;
+  }
+  
+  .form-input input {
+    text-align: center;
+    height: 2.1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 50%;
+    transition: border-color 0.3s ease;
+    color: rgb(78, 78, 78);
+  }
+  
+  .form-input input:focus {
+    outline: none;
+    border-color: #7289DA;
+  }
+  
+  .form-button {
+    padding: 5px 6px;
+    background-color: #9B84EE;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-button:hover {
+    background-color: #b4a3f1;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  .form-button:active {
+    transform: scale(0.99);
+  }
+  .check-form{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 2vh;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(151, 0, 0);
+    height: 20px; 
+    
+  }
